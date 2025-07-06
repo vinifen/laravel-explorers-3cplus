@@ -1,4 +1,4 @@
-# Explorers
+# Explore
 
 ## Acesso ao phpMyAdmin
 
