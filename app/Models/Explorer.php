@@ -15,5 +15,19 @@ class Explorer extends Authenticatable
     protected $fillable = [
         'name',
         'age',
+        'password',
     ];
+
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
+
+    protected function casts(): array
+    {
+        return [
+            'age' => 'integer',
+            'password' => 'hashed',
+        ];
+    }
 }

@@ -14,6 +14,7 @@ class ExplorerController extends Controller
     public function index()
     {
         //
+        return response()->json(["adsf"]);
     }
 
     /**
